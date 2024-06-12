@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/css/style.css">
+    <link rel="stylesheet" href="mediaQuery.css">
+    <title>Lorens Fullstack</title>
+</head>
+
+<header class="topBar">
+    <h1> Fullstack Java Developer - Portfolio</h1>
+
+    <div class="sections">
+        <a href="#aboutme">Acerca de mi</a>
+        <a href="#proyects">Proyectos</a>
+        <a href="#colaborate">Contactame</a>
+    </div>
+    
+</header>
+<body>
+    <div class="ppl-section" id="aboutme">
+        <div class="aboutme">
+            
+            <h2>Bienvenido/a a mi portafolio</h2>
+            <p>Conoce mis proyectos y mis conocimientos</p>
+            <div class="buttons">
+                <a href="#colaborate"><input type="submit" class="contact" value="Contactame"></a>
+                <a href="../public/CV-Desarrollador Fullstack Java.pdf"><input type= "submit" class="download" value="Descarga mi CV"></a>
+            </div>
+        </div>
+        <div class="intro">
+            <img src="../public/img/cropped_image (2).png" alt="Photo">
+            <h3>Hagamos el mundo mejor, con una pagina web a la vez.</h3>
+            
+        </div>
+
+        
+    </div>
+
+    <div class="proyects" id="proyects">
+        <div class="container-proyects">
+            <h3>Últimos proyectos</h3><br>
+            <p>Conoce en lo que he trabajado</p><br>
+            <ul>
+                <li><a href="">Generation</a></li>
+                <li><a href="">Proyecto2</a></li>
+                <li><a href="">Proyecto3</a></li>
+            </ul>
+        </div>
+        <img src="../public/img/image container.png" alt="imgProy" class="proyectImg">
+    </div>
+
+    <div class="colaborate" id="colaborate">
+        <div class="colaborate-txt">
+            <h3>Estas interesada/o en trabajar conmigo?</h3>
+            <p>Siempre estoy en disposición para nuevos proyectos, cuentame</p>
+        </div>    
+
+    
+        
+        <form action="https://formspree.io/f/mwkggoql" method="POST" class="forms">
+            
+            <label for="name" >Nombre: <br>
+                <input type="text" id="name" name="name" placeholder="Ingrese su nombre" required>
+            </label>
+            
+            <label for="number">Número de telefono: <br>
+                <input id="number" name="number" type="number" placeholder="Ingrese su número de contacto" required>
+            </label>
+        
+            <label for="email">Correo electronico: <br>
+                <input id="email" name="email" type="mail" placeholder="Ingrese su e-mail" required>
+            </label>
+            
+            <label for="texto" >Mensaje: <br>
+                <textarea name="texto" type="text" id="texto" placeholder="Cuentame que ideas tienes en mente." required> </textarea>
+            </label>
+           
+            <input class="button-form" type="submit" value="Hagamoslo!">
+        </form>
+
+
+    </div>
+</body>
+<footer>
+
+    
+
+</footer>
+</html>
