@@ -209,14 +209,14 @@ header{
 }
 .container-proyects-left{
     width: 40vh;
-    height: 40vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     gap: 4vh;
 }
 .container-proyects-right{
     width: 40vh;
-    height: 40vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     gap: 4vh;
@@ -225,10 +225,12 @@ header{
     background-color: #ddb2ee;
     width: 40vh;
     height: 18vh;
-    /* border-top-left-radius: 100px; */
-    clip-path: polygon(50% 0, 99% 62%, 100% 65%, 100% 100%, 0 100%, 0 65%, 1% 62%);
-    border-radius: 50% 50% / 0 0 var(--half-size) var(--half-size);
-    box-shadow:1px 1px 2px red, 0 0 5em blue, 0 0 2em blue ;
+    border-top-left-radius: 100px;
+    display: flex;
+    
+}
+.proyect1 img{
+    height: 100%;
     
 }
 .proyect2 {
